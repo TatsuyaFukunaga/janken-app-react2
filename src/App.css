@@ -1,0 +1,45 @@
+.pc_site,
+.result {
+  display: inline-block;
+  vertical-align: text-bottom;
+  text-align: center;
+}
+
+.pc_site img,
+.result img {
+  height: 200px;
+  display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+  align-self: middle;
+  margin: auto;
+}
+
+.result img {
+  width: 400px;
+  object-fit: cover;
+}
+
+.pc_site,
+.result {
+  text-align: center;
+  margin: auto;
+}
+
+.result {
+  display: flex;
+}
+
+.pc_site {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .pc_site {
+    display: block;
+  }
+
+  .result {
+    display: block;
+  }
+}
